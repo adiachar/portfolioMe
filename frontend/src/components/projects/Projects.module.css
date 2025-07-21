@@ -1,0 +1,182 @@
+.container h1 {
+    font-size: 3rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+.projects {
+    margin-top: 3rem;
+    padding: 1rem;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    border: 3px dashed rgba(0, 0, 0, 0.1);
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+.section {
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.pHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pHeader div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pHeader div:nth-child(2) a{
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    color: blue;
+    margin-left: 0.3rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    font-weight: 300;
+}
+
+.pHeader div:nth-child(1) a{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.pHeader div div a {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.pHeader h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pInfo {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pInfo h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.pInfo ul {
+    padding-left: 0.5rem;
+    list-style: none;
+}
+
+.pInfo ul li {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.pTechstack {
+    display: flex;
+    padding: 0px !important;
+}
+
+.pTechstack li {
+    padding: 0.4rem;
+    font-size: 0.7rem !important;
+    font-weight: 700 !important;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.projects .section:nth-child(1) .pTechstack li{
+    background-color: #2563eb;
+}
+
+.projects .section:nth-child(2) .pTechstack li{
+    background-color: #168014;
+}
+
+.projects .section:nth-child(3) .pTechstack li{
+    background-color: #25bdeb;
+}
+
+.projects .section:nth-child(4) .pTechstack li{
+    background-color: #eba925;
+    color: black !important;
+}
+
+.projects .section:nth-child(5) .pTechstack li{
+    background-color: #565c68;
+}
+
+.projects .section:nth-child(6) .pTechstack li{
+    background-color: #7725eb;
+}
+
+.icon1, .icon2 {
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.2rem !important;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.icon2 {
+    color: #2563eb;
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .projects {
+        width: 100%;
+        padding: 0px;
+        border: none;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .section p {
+        text-align: center;
+    }
+
+    .pHeader div a{
+        font-size: smaller;
+        margin-bottom: 0.5rem;
+    }
+    
+}

@@ -1,0 +1,128 @@
+.container h1 {
+    font-size: 3rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+.AbR1{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.AbR2 {
+    grid-column: 1/ span 2;
+    grid-row: 2;
+}
+
+.AbR2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ed, .dj, .AbR2 {
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.AbR2 div {
+    border: none;
+    box-shadow: none;
+}
+
+.AbR1 h2, .AbR2 h2{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.AbR1 p, .approach p {
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.approach {
+    display: flex !important;
+}
+
+.approach div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.approach h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2563eb;
+}
+
+.icon {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: #3970e6;
+    font-size: 2.8rem !important;
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .AbR1 {
+        width: 100%;
+    }
+
+    .AbR1 h2 {
+        font-size: larger;
+    }
+
+    .AbR1 {
+        grid-template-rows: repeat(3, 0.2fr) !important;
+        grid-template-columns: repeat(1, 100%) !important;
+    }
+
+    .AbR2 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .approach {
+        flex-direction: column;
+    }
+
+    .approach div {
+        margin-bottom: 1.5rem;
+    }
+
+    .approach h3 {
+        font-size: medium;
+    }
+}

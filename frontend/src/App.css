@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    min-height: 100vh;
+    margin-top: 5rem;
+    width: 100vw;
+    padding: 0rem 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0rem 1rem;
+    }
+}
