@@ -87,7 +87,7 @@ function ProjectsList({projects}) {
                         <h2>{project.title}</h2>
                         <div>
                             <div><a href={project.gitLink}><GitHubIcon className={ps.icon1}/>GitHub</a></div>
-                            <div><a href={project.demoLinks}><OpenInNewIcon className={ps.icon2}/>Demo</a></div>
+                            <div><a href={project.demoLink}><OpenInNewIcon className={ps.icon2}/>Demo</a></div>
                         </div>
                     </div>
                     <p className={ps.pDescription}>{project.description}</p>
