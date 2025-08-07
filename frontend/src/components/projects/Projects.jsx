@@ -4,19 +4,20 @@ import ps from "./Projects.module.css";
 
 let projects = 
 [{
-    title: "Airbnb Replica",
-    description: "A full-stack web application replicating Airbnb's core functionality with secure authentication and efficient data management.",
+    title: "QChat",
+    description: "A sleek, responsive MERN stack chatbot powered by GPT-4o-mini, featuring user authentication, threaded conversations, and customizable system-level instructions.",
     features: [
-        "RESTful API implementation",
-        "Secure authentication with Passport.js",
-        "MongoDB data management",
+        "User Authentication & Authorization",
+        "Threaded Conversations",
+        "GPT-4o-mini Integration",
     ],
-    gitLink: "https://github.com/adiachar/Airbnb",
-    demoLink: "https://airbnb-pec4.onrender.com",
+    gitLink: "https://github.com/adiachar/QChat.git",
+    demoLink: "https://qchat-umod.onrender.com",
     techStacks: [
         "Node.js",
         "Express.js",
-        "MongoDB"
+        "MongoDB",
+        "GPT-4o-mini API"
     ]
 },{
     title: "Game Space",
