@@ -14,7 +14,7 @@ export default function Resume() {
                 </div>
                 <div className={rs.resumePdf}>
                     <iframe
-                        src="/AdithyaG_Resume.pdf"
+                        src="/Adithya_G_Resume_4MT22IS002.pdf"
                         width={"100%"}
                         height={"600px"}
                     ></iframe>

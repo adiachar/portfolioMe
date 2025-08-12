@@ -17,7 +17,7 @@ let projects =
         "Node.js",
         "Express.js",
         "MongoDB",
-        "GPT-4o-mini API"
+        "Groq API"
     ]
 },{
     title: "Game Space",
@@ -52,16 +52,17 @@ let projects =
         "MongoDB",
     ]
 }, {
-    title: "Realtime Chatting Application",
-    description: "A modern real-time chat application with instant messaging capabilities and dynamic user interactions.",
+    title: "Smart AI & Real-Time Messaging Application",
+    description: "Engineered an AI-powered messaging system that transforms user intent into contextually appropriate messages using llama-3.3-70b-versatile models.",
     features: [
-        "Real-time bidirectional communication",
-        "WebSocket implementation",
+        "Tone-based AI message generation",
+        "Real-time messaging with WebSockets",
         "Dynamic user interface",
     ],
-    gitLink: "https://github.com/adiachar/No-Chat",
-    demoLink: "https://nochat-iqi1.onrender.com",
+    gitLink: "https://lnkd.in/daQC4tkw",
+    demoLink: "https://lnkd.in/dHMNxj_C",
     techStacks: [
+        "Groq API",
         "WebSocket",
         "Node.js",
         "Express.js",
