@@ -105,7 +105,10 @@
 .pTechstack {
     display: flex;
     padding: 0px !important;
+    overflow-x: auto;
 }
+
+
 
 .pTechstack li {
     padding: 0.4rem;
